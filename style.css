@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p {
+    font-weight: 500;
+}
+
 .wrapper {
     width: 100%;
     max-width: 1920px;
@@ -79,6 +83,7 @@ main {
 .welcome__section > h3 {
     font-weight: bold;
     padding: 0 0 1rem 0;
+    font-size: 1.8rem;
 }
 
 .welcome__section > p {
@@ -88,10 +93,11 @@ main {
 .uuid {
     text-align: center;
     width: 150px;
-    height: 40px;
-    border: 1px solid grey;
-    padding: .5rem;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    padding: .8rem;
     margin: 1rem 0;
+    font-weight: bold;
 }
 
 .signature {
@@ -152,7 +158,7 @@ footer {
 
     main {
         background-color: rgb(250, 250, 250);
-        padding: 3rem 1rem;
+        padding: 3rem 1.2rem;
     }
 
     .welcome__section > p {
