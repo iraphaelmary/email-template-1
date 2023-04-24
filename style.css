@@ -82,18 +82,8 @@ main {
     padding-bottom: 1rem;
 }
 
-/* .welcome__section > h3 {
-    font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-} */
-
 .welcome__section > p {
     width: 440px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 170%;
     height: 96px; 
 }
 
@@ -117,7 +107,7 @@ aside > h3 {
 .uuid {
     display: grid;
     place-items: center;
-    margin: 1rem 0 2.5rem 0;
+    margin: 0.3rem 0 2.8rem 0;
 }
 
 .uuid__num {
@@ -143,7 +133,6 @@ aside > h3 {
 
 .wynk__weblink {
     color: unset;
-    /* font-style: italic; */
 }
 
 .social__media > ul li {
