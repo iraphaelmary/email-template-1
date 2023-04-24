@@ -12,6 +12,9 @@
 p {
     font-family: "Poppins" !important;
     font-size: 0.9rem !important;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 170%;
 }
 
 html {
@@ -79,11 +82,11 @@ main {
     padding-bottom: 1rem;
 }
 
-.welcome__section > h3 {
+/* .welcome__section > h3 {
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 1rem;
-}
+} */
 
 .welcome__section > p {
     width: 440px;
@@ -92,6 +95,23 @@ main {
     font-size: 1rem;
     line-height: 170%;
     height: 96px; 
+}
+
+aside {
+    display: grid;
+    place-items: center;
+}
+
+aside > p {
+    width: 540px;
+    height: 96px; 
+    text-align: center;
+}
+
+aside > h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .uuid {
@@ -199,4 +219,8 @@ footer {
         width: 100%;
         padding: 0 2rem;
     }    
+
+    aside > p {
+        width: 100%;
+    }
 }
