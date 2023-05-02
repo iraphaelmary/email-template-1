@@ -155,10 +155,13 @@ aside > h3 {
 }
 
 footer {
-    background-color: #000000;
     display: grid;
     place-items: center;
     padding: 1.5rem 0;
+    background-image: url('./assets/BlueBackground.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
 }
 
 .download > ul li {
