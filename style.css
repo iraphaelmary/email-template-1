@@ -157,7 +157,7 @@ aside > h3 {
 footer {
     display: grid;
     place-items: center;
-    padding: 1.5rem 0;
+    padding: 3rem 0;
     background-image: url('./assets/BlueBackground.png');
     background-position: center;
     background-size: cover;
@@ -214,5 +214,9 @@ footer {
 
     aside > p {
         width: 100%;
+    }
+
+    footer {
+        padding: 5rem 0;
     }
 }
