@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Poppins" !important;
+    font-size: 0.9rem !important;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 170%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 4rem;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.mail__container {
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+}
+
+header {
+    position: relative;
+    background: url('./assets/Blue\ background.png');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.wynkmail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header > h4 {
+    position: absolute;
+    right: 3rem;
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+
+.mail__box {
+    padding: 2rem 0 0 0;
+}
+
+main {
+    padding: 2rem 7rem;
+}
+
+.welcome__section {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+    padding-bottom: 1rem;
+}
+
+.welcome__section > p {
+    width: 440px;
+    height: 96px; 
+}
+
+aside {
+    display: grid;
+    place-items: center;
+}
+
+aside > p {
+    width: 540px;
+    height: 96px; 
+    text-align: center;
+}
+
+aside > h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: .75rem;
+}
+
+.uuid {
+    display: grid;
+    place-items: center;
+    margin: 0.3rem 0 2.8rem 0;
+}
+
+.uuid__num {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    padding: .3rem 3rem;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.205em;
+    text-align: center;
+}
+
+.signature {
+    margin-top: -3rem;
+}
+
+.social__media {
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+    padding: 1.5rem 0;
+}
+
+.wynk__weblink {
+    color: unset;
+}
+
+.social__media > ul li {
+    margin: 10px 5px 0 5px;
+}
+
+.subscribe {
+    display: grid;
+    place-items: center;
+    padding: 1.5rem 0;
+}
+
+.subscribe > div {
+    width: 45%;
+    text-align: center;
+}
+
+.subscribe div p {
+    line-height: 170%;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 3rem 0;
+    background-image: url('./assets/BlueBackground.png');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.download > ul li {
+    margin: 10px 5px 5px 5px;
+}
+
+.footer > p {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 920px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    p {
+        font-size: 0.85rem !important;
+    }
+
+    header > h4 {
+        position: absolute;
+        right: .5rem;
+        padding-top: 1rem;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 0 .8rem;
+    }
+
+    .welcome__section > p {
+        width: 100%;
+    }
+
+    .uuid {
+        display: grid;
+        place-items: center;
+        margin: 1rem 0 2rem 0;
+    }
+    
+
+    .subscribe > div {
+        width: 100%;
+        padding: 0 2rem;
+    }    
+
+    aside > p {
+        width: 100%;
+    }
+
+    footer {
+        padding: 5rem 0;
+    }
+}
